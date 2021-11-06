@@ -1,0 +1,23 @@
+{
+	"name": "FactInernetSales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsone",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "CSV_SQLServerLocal",
+				"fileSystem": "demoprivate"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
