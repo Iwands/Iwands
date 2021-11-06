@@ -5,6 +5,9 @@
 			"referenceName": "adlsone",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Azure Data Lake Gen 2"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
